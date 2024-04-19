@@ -1,0 +1,4 @@
+while true; do 
+    echo "Starting command: $COMMAND" 
+    # Chạy lệnh trong background 
+    bash -c "$COMMAND" & 
